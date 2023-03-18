@@ -73,7 +73,7 @@ const handleSubmit = async (e) => {
 
   loader(messageDiv);
 
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://curiosity-mah9.onrender.com', {
     method: 'post', 
     headers: {
       'Content-Type': 'application/json',
